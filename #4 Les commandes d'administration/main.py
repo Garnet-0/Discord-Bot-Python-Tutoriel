@@ -40,4 +40,4 @@ async def clear(ctx, nombre : int):
 	for message in messages:
 		await message.delete()
 
-bot.run("NzA3Njc4MjI1MDA1OTM2NjUy.XrfI2A.H0Pi8xtRnvfdRw3dPSyAKLdG8aI")
+bot.run("NzA3Njc4MjI1MDA1OTM2NjUy.XsbN8g.n4ZnavWhgkEpuPzja_8i2BzvupY")
