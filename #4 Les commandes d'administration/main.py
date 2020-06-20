@@ -26,8 +26,6 @@ async def unban(ctx, user, *reason):
 	#Ici on sait que lutilisateur na pas ete trouvé
 	await ctx.send(f"L'utilisateur {user} n'est pas dans la liste des bans")
 
-
-
 @bot.command()
 async def kick(ctx, user : discord.User, *reason):
 	reason = " ".join(reason)
